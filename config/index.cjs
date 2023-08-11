@@ -11,17 +11,17 @@ const USER_CONFIG = {
   APP_ID: 'wxa32178ba79a1e79f',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: 'a85abd1031c752fab84dcb94f8bdb631',
+  APP_SECRET: '74791d0cd2ede1a36df3017e96aa5a9b',
 
   PROVINCE: '山西',
-  CITY: '怀仁',
+  CITY: '朔州',
 
   USERS: [
     {
       // 想要发送的人的名字
       name: '乖乖',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'a85abd1031c752fab84dcb94f8bdb631',
+      id: 'oLDeE6ivpsSjyvvZ0_8BRlMMlI8M',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'aa4uCV_9JiWy8hgVx_lTADgffg5_4D0Xw-x2paHCprA',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
