@@ -42,7 +42,7 @@ const USER_CONFIG = {
           type: '生日', name: '涛涛', year: '2000', date: '10-29',
         },      
       ],
-      FESTIVALS_LIMIT：0,
+      //FESTIVALS_LIMIT：0,
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
