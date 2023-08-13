@@ -39,9 +39,10 @@ const USER_CONFIG = {
           type: '生日', name: '涛涛', year: '2000', date: '10-29',
         },
         {
-          type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
+          type: '节日', name: '相识纪念日', year: '2021', date: '04-20',
         },
       ],
+       FESTIVALS_LIMIT: 0,
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
@@ -60,7 +61,7 @@ const USER_CONFIG = {
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'giTxBRDSz6JMgLwA8GdB59m30DHReFQ_IfaYaUC5an4',
+      id: 'oLDeE6lVimPjtXFXY2o3T65darBw',
     }
   ],
 
