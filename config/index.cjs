@@ -17,9 +17,8 @@ const USER_CONFIG = {
   CITY: '朔州',
 
   USERS: [
-    {
+    {   
       
-    `{
       // 想要发送的人的名字
       name: '秀宝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
@@ -30,10 +29,10 @@ const USER_CONFIG = {
       horoscopeDate: '05-13',
       holidaytts: true,
       CIBA: true,
-      birthdayMessage: true,}
+      birthdayMessage: true,
  
       
-      {// 想要发送的人的名字
+      // 想要发送的人的名字
       name: '涛涛',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oLDeE6lVimPjtXFXY2o3T65darBw',
@@ -43,7 +42,7 @@ const USER_CONFIG = {
       horoscopeDate: '10-29',
       holidaytts: true,
       CIBA: true,
-      birthdayMessage: true,}
+      birthdayMessage: true,
 
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
@@ -64,7 +63,7 @@ const USER_CONFIG = {
         // 结婚纪念日
        // { keyword: 'marry_day', date: '2022-09-09' },
       ],
-    } ,
+        } ,
   ],
 
 
