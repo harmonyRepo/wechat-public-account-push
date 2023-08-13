@@ -18,17 +18,33 @@ const USER_CONFIG = {
 
   USERS: [
     {
+      
+    `{
       // 想要发送的人的名字
-      name: '乖乖',
+      name: '秀宝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oLDeE6lVimPjtXFXY2o3T65darBw',
+      id: 'oLDeE6ivpsSjyvvZ0_8BRlMMlI8M',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'eii2aoQKMFjakBoa3xfDDaT85LrXp96aUY-irCz-huM',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '05-13',
       holidaytts: true,
       CIBA: true,
-      birthdayMessage: true,
+      birthdayMessage: true,}
+ 
+      
+      {// 想要发送的人的名字
+      name: '涛涛',
+      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'oLDeE6lVimPjtXFXY2o3T65darBw',
+      // 使用微信测试号：你想对他发送的模板消息的模板ID
+      useTemplateId: 'eii2aoQKMFjakBoa3xfDDaT85LrXp96aUY-irCz-huM',
+      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+      horoscopeDate: '10-29',
+      holidaytts: true,
+      CIBA: true,
+      birthdayMessage: true,}
+
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
@@ -38,18 +54,17 @@ const USER_CONFIG = {
         {
           type: '生日', name: '涛涛', year: '2000', date: '10-29',
         },
-        {
-          type: '节日', name: '相识纪念日', year: '2020', date: '04-20',
-        },
+        
       ],
+      FESTIVALS_LIMIT：0
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2021-04-20' },
         // 结婚纪念日
-        { keyword: 'marry_day', date: '2022-09-09' },
+       // { keyword: 'marry_day', date: '2022-09-09' },
       ],
-    },
+    } ,
   ],
 
 
