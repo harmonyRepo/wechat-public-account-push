@@ -32,17 +32,7 @@ const USER_CONFIG = {
       birthdayMessage: true,
  
       
-      // 想要发送的人的名字
-      name: '涛涛',
-      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oLDeE6lVimPjtXFXY2o3T65darBw',
-      // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'eii2aoQKMFjakBoa3xfDDaT85LrXp96aUY-irCz-huM',
-      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '10-29',
-      holidaytts: true,
-      CIBA: true,
-      birthdayMessage: true,
+     
 
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
