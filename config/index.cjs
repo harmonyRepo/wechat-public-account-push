@@ -26,6 +26,9 @@ const USER_CONFIG = {
       useTemplateId: '4j1SUKBrcx2EiedXTK3a8WoKlDFCOf3rZRyxvdFaGeQ',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '05-13',
+      holidaytts: true,
+      CIBA: true,
+      birthdayMessage: true,
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
@@ -42,7 +45,7 @@ const USER_CONFIG = {
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: '我们在一起已经', date: '2021-04-20' },
+        { keyword: 'love_day', date: '2021-04-20' },
         // 结婚纪念日
         { keyword: 'marry_day', date: '2022-09-09' },
       ],
