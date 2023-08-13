@@ -23,7 +23,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oLDeE6lVimPjtXFXY2o3T65darBw',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'NwxuQLkzXSZS8ZZGnBh6grokkaz3ezzphfVr36aP_Q8',
+      useTemplateId: 'eii2aoQKMFjakBoa3xfDDaT85LrXp96aUY-irCz-huM',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '05-13',
       holidaytts: true,
@@ -32,11 +32,11 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝宝', year: '2000', date: '10-29',
+          type: '*生日', name: '秀宝', year: '1999', date: '05-13',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '家惠', year: '1999', date: '05-13',
+          type: '生日', name: '涛涛', year: '2000', date: '10-29',
         },
         {
           type: '节日', name: '相识纪念日', year: '2020', date: '04-20',
