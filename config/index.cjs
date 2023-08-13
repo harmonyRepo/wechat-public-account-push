@@ -30,10 +30,6 @@ const USER_CONFIG = {
       holidaytts: true,
       CIBA: true,
       birthdayMessage: true,
- 
-      
-     
-
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
@@ -42,8 +38,7 @@ const USER_CONFIG = {
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
           type: '生日', name: '涛涛', year: '2000', date: '10-29',
-        },
-        
+        },      
       ],
       FESTIVALS_LIMIT：0
       // 我们在一起已经有xxxx天了的配置
