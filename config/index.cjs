@@ -42,7 +42,7 @@ const USER_CONFIG = {
           type: '节日', name: '相识纪念日', year: '2021', date: '04-20',
         },
       ],
-       FESTIVALS_LIMIT: ,
+       FESTIVALS_LIMIT: 4,
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
